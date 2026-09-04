@@ -100,6 +100,31 @@ Battery charging and discharging were simulated according to the balance between
 ![Battery Storage Simulation](battery_storage_simulation.png)
 
 
+## Quantitative Results
+
+The wind power forecasting models were evaluated using MAE and RMSE.
+
+| Feature Set | Model | MAE (kWh) | RMSE (kWh) |
+|---|---|---:|---:|
+| Meteorological features | LSTM | 14,863 | 20,046 |
+| Meteorological features | TCN | 12,585 | 17,914 |
+| Meteorological + turbine operating hours | LSTM | **11,369** | 16,976 |
+| Meteorological + turbine operating hours | TCN | 13,193 | 18,536 |
+| Meteorological + turbine operating hours + loss-related features | LSTM | 11,614 | **16,937** |
+| Meteorological + turbine operating hours + loss-related features | TCN | 14,040 | 18,827 |
+
+Adding turbine operating-hour information improved the LSTM model, reducing MAE from approximately 14.9 thousand kWh to 11.4 thousand kWh, an improvement of approximately 23.5%.
+
+## Requirements
+
+This project was developed using Python with the following libraries:
+
+- NumPy
+- pandas
+- Matplotlib
+- scikit-learn
+- TensorFlow
+
 ## Repository Structure
 
 ```text
@@ -107,5 +132,4 @@ wind-energy-forecasting-and-storage/
 │
 ├── README.md
 ├── wind_energy_forecasting_and_storage.ipynb
-└── requirements.txt
 
