@@ -1,6 +1,3 @@
-# wind-energy-forecasting-and-storage
-Deep learning-based wind power and electricity demand forecasting with battery energy storage simulation.
-
 # Wind Energy Forecasting and Battery Storage Simulation
 
 A deep learning project for wind power forecasting, electricity demand prediction, and battery energy storage simulation.
