@@ -88,3 +88,22 @@ wind-energy-forecasting-and-storage/
 ├── README.md
 ├── wind_energy_forecasting_and_storage.ipynb
 └── requirements.txt
+
+
+## Project Workflow
+
+![Project Workflow](project_workflow.png)
+
+## Results
+
+### Wind Power Forecasting
+
+The trained models were evaluated on new wind power generation data.
+
+![Wind Power Prediction](wind_power_prediction.png)
+
+### Battery Energy Storage Simulation
+
+Battery charging and discharging were simulated according to the balance between wind power generation and electricity demand.
+
+![Battery Storage Simulation](battery_storage_simulation.png)
