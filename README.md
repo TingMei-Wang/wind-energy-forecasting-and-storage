@@ -81,9 +81,7 @@ The datasets include:
 - Google Colab
 
 
-## Project Workflow
 
-![Project Workflow](project_workflow.png)
 
 ## Results
 
