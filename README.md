@@ -88,14 +88,14 @@ The datasets include:
 ### Wind Power Forecasting
 
 The trained models were evaluated on new wind power generation data.
+![Wind Power Prediction](figures/wind_power_prediction.png)
 
-![Wind Power Prediction](wind_power_prediction.png)
 
 ### Battery Energy Storage Simulation
 
 Battery charging and discharging were simulated according to the balance between wind power generation and electricity demand.
 
-![Battery Storage Simulation](battery_storage_simulation.png)
+![Battery Storage Simulation](figures/battery_storage_simulation.png)
 
 
 ## Quantitative Results
